@@ -1,4 +1,5 @@
-Rails.application.routes.draw do                                                
+Rails.application.routes.draw do 
+  root 'welcome#index'                                               
   resources :posts
   resources :users do                                                            
     collection do                                                                
